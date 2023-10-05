@@ -1,0 +1,66 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/reviews-bg.png");
+  background-size: cover;
+}
+.review-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  min-height: 50vh;
+  background-color: black;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.reviw-flex-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.review-content {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.review-content h1 {
+  font-size: medium;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.review-content b {
+  font-size: small;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.review-content p {
+  font-weight: 400;
+}
+.arrow-btn {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.arrow-img {
+  width: 20px;
+}
